@@ -1,11 +1,19 @@
-:root {
-   --color-1: #c80708;
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+:root { 
+   --color-1: #fa4949;
    --color-2: #af0908;
-   --color-3: #880806;
-   --color-4: #600708;
+   --color-3: #c80708;
+   --color-4: #880806;
+   --color-5: #600708;
 }
 
 body {
     color: #c80708;
     background-color: var(--color-4);
+    font-family: "Overpass";
+}
+
+.First-Class {
+    text-align: center;
+    color: #fa4949;
 }
