@@ -11,9 +11,35 @@ body {
     color: #c80708;
     background-color: var(--color-4);
     font-family: "Overpass";
+    font-size: 20px;
 }
 
 .First-Class {
     text-align: center;
     color: #fa4949;
+}
+
+.Second-Class {
+    color:indianred;
+    font-family: Roboto Slab;
+}
+
+h1{
+    text-align: center;
+}
+.nav-bar ul{
+    list-style-type: none;
+    background-color: #600708;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-bar a{
+    color: indianred;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.nav-bar a:hover{
+    background-color:#c80708
 }
