@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 :root { 
-   --color-1: #fa4949;
+   --color-1: #fa4747;
    --color-2: #af0908;
    --color-3: #c80708;
    --color-4: #880806;
@@ -8,38 +8,69 @@
 }
 
 body {
-    color: #c80708;
-    background-color: var(--color-4);
+    margin: 0;
+    background-color: #b84c4c;
     font-family: "Overpass";
-    font-size: 20px;
 }
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #702727;
+    color: #faa2a2;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #f25f5f;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #fbdada;
+}
+
+
+
+
 
 .First-Class {
     text-align: center;
-    color: #fa4949;
+    color: #871a1a;
 }
 
 .Second-Class {
-    color:indianred;
+    color:rgb(109, 38, 38);
     font-family: Roboto Slab;
 }
+
 
 h1{
     text-align: center;
 }
-.nav-bar ul{
-    list-style-type: none;
-    background-color: #600708;
-    padding: 0px;
-    margin: 0px;
-}
-.nav-bar a{
-    color: indianred;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
+
+#header1 {
     text-align: center;
+    font-size: 40px;
+    background-color:#600708
+    padding: 10px;
+    margin: 5px 0px 0px 0px
 }
-.nav-bar a:hover{
-    background-color:#c80708
+
+#site-header-class {
+    background-color: #9b3435;
+    padding: 20px;
+    font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
