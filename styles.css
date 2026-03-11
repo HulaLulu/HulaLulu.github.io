@@ -73,6 +73,9 @@ body {
   font-style: normal;
 }
 
+.contact-box {
+    color:#b84c4c;
+}
 
 .paragraph-class {
     color:#600708
@@ -85,3 +88,29 @@ body {
 a:visited {
     color: #e4a8a9;
   }
+
+  section{
+    background-color: #702727;
+    border: 1px solid #702727;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 0px;
+  }
+
+.center-img {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile Devices */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet Devices */
+}
+
+@media screen and (max-width: 769px) {
+    /* Laptop/Desktop Devices */
+}
+
+
