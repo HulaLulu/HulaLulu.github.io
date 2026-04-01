@@ -42,8 +42,22 @@ body {
     color: #fbdada;
 }
 
+.navimg {
+    display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
 
+.Third-Class {
+    color:#e9aaaa;
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-decoration: underline;
+}
 
+}
 
 
 .First-Class {
@@ -54,7 +68,16 @@ body {
 .Second-Class {
     color:rgb(109, 38, 38);
     font-family: Roboto Slab;
+    font-size: 20px;
 }
+
+
+.Fourth-Class {
+    color:rgb(109, 38, 38);
+    font-family: Roboto Slab;
+    font-size: 35px;
+}
+
 
 
 #header1 {
